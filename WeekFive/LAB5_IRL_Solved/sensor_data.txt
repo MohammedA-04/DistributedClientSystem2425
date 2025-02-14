@@ -1,0 +1,4 @@
+Temperature: 52.00°C
+Humidity: 81.00%
+Pressure: 971.00 hPa
+Alert Code: 1
