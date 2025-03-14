@@ -22,7 +22,7 @@ int main()
     srand(time(NULL));
 
     // Generate random sensor values
-    float tmp = (rand() % 50) + 10;  // Temp: 10 to 59 °C (0 -> 49 be -> 1 to 50)
+    float tmp = (rand() % 50) + 10;  // Temp: 10 to 59 °C (0 -> 49 be -> 1 to 59)
     float humd = (rand() % 100) + 1; // Humidity: 1 to 100% (0 -> 99 be 1 -> 100)
     float ps = (rand() % 100) + 900; // Pressure: 900 to 999 hPa (0 to 99 -> 900 -> 999)
 
